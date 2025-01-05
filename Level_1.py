@@ -143,7 +143,7 @@ def update(value):
             text(window_width // 2 - 50, window_height // 2, "Proceed to Level 2")
             # Exit the current GLUT main loop
             glutLeaveMainLoop()
-            subprocess.run(['python', 'CSE423_Fall24_group_7/Leve_2.py'])
+            subprocess.run(['python', 'CSE423_Fall24_Group_7/Leve_2.py'])
 
         else:
             ball_x += ball_dx
