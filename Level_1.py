@@ -225,7 +225,7 @@ def init():
     glutInit(sys.argv)
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB)
     glutInitWindowSize(window_width, window_height)
-    glutCreateWindow(b"DX-Ball")
+    glutCreateWindow(b"Box_Breaker_1")
     glutDisplayFunc(draw)
     glutKeyboardFunc(keyboard)
     glutTimerFunc(16, update, 0)
